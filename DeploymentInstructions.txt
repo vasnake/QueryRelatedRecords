@@ -1,22 +1,26 @@
 Deploy the Query Related Records tool as follows:
 
-
 1. Open the ArcGIS Viewer for Silverlight Application Builder
 2. Click Settings and click the Add-Ins tab.
 3. On the Add-Ins tab, click the Upload Add-In button.
 4. In the Open File dialog, browse to the QueryRelatedRecords.AddIns.xap file (included with the sample) and double-click it.
 5. Exit the Settings page of the Application Builder.
-6. On the Tools tab, click Add Tool. Select the Query Related Records tool and click Next. 
+6. On the Tools tab, click Add Tool. Select the Query Related Records tool and click Next.
 7. On the Tool's properties page, set the Toolbar to the *Pop-up toolbar* and click OK. (This tool only works as part of a pop-up.)
-8. Browse to a layer containing related features. You can use the Wells layer on the ArcGIS Online sample server: (http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Petroleum/KSPetro/MapServer/0). 
-9. Click a feature to display the pop-up. If the feature has a related table, the Query Related Records tool appears in the pop-up's toolbar (bottom of pop-up). 
-10. Click the tool to execute the query. Related records are displayed in the Attribute Table. If there is geometry is associated with the related records they are displayed in a graphics layer with default symbology.
----
+8. Browse to a layer containing related features. You can use the Wells layer on the ArcGIS Online sample server:
+    (http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Petroleum/KSPetro/MapServer/0).
+9. Click a feature to display the pop-up. If the feature has a related table, the Query Related Records tool
+    appears in the pop-up's toolbar (bottom of pop-up).
+10. Click the tool to execute the query. Related records are displayed in the Attribute Table.
+    If there is geometry is associated with the related records they are displayed in a graphics layer with default symbology.
+
 Editing related records:
----
+
 1. Use sample as described above.
-2. Ensure you have added a Feature Service with editing capabilities. (For example, http://sampleserver3.arcgisonline.com/arcgis/rest/services/SanFrancisco/311Incidents/FeatureServer/0)
+2. Ensure you have added a Feature Service with editing capabilities. (For example,
+    http://sampleserver3.arcgisonline.com/arcgis/rest/services/SanFrancisco/311Incidents/FeatureServer/0)
 3. Enable editing in the Application Builder for all feature layers.
 4. Edit attributes directly in the Attribute Table when it displays.
---See http://help.arcgis.com/en/webapps/silverlightviewer/help/index.html#/Editing_features/017700000045000000/ for information on enabling editing in the ArcGIS Viewer for Silverlight.
 
+See http://help.arcgis.com/en/webapps/silverlightviewer/help/index.html#/Editing_features/017700000045000000/
+for information on enabling editing in the ArcGIS Viewer for Silverlight.

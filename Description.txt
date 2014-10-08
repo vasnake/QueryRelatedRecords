@@ -1,23 +1,36 @@
 Query Related Records tool, fixed and extended by vasnake@gmail.com
 
 Extensions:
+
 1. You can view related data for ArcGISDynamicMapServiceLayer sublayers, not only for FeatureLayer.
 2. You can select relation from list if there is more than one relation.
 
+Text from original version of addon
 
-Original text
+The Query Related Records tool demonstrates how to use the QueryTask to get a feature's related records
+and display them in the Attribute Table. Additionally, this sample demonstrates adding a tool on the pop-up
+and using the OnClickPopupInfo to obtain information about the clicked feature.
+Running the tool queries the related records for the feature for which the pop-up is shown.
 
-The Query Related Records tool demonstrates how to use the QueryTask to get a feature's related records and display them in the Attribute Table. Additionally, this sample demonstrates adding a tool on the pop-up and using the OnClickPopupInfo to obtain information about the clicked feature. Running the tool queries the related records for the feature for which the pop-up is shown.
-
-
-To try the sample from Visual Studio, open the QueryRelatedRecords.sln solution file and run it by pressing the Start Debugging button or the F5 key. The solution is pre-loaded with the Wells and Fields layers from http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Petroleum/KSPetro/MapServer. Click a well or field and then click the Query Related Records tool shown at the bottom of the pop-up.
+To try the sample from Visual Studio, open the QueryRelatedRecords.sln solution file
+and run it by pressing the Start Debugging button or the F5 key.
+The solution is pre-loaded with the Wells and Fields layers from
+http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Petroleum/KSPetro/MapServer.
+Click a well or field and then click the Query Related Records tool shown at the bottom of the pop-up.
 
 To customize the sample for your data:
-1. Specify the Relationship ID to query (use the Service Details page to find the ID). By default, this sample uses the first relationship ID it finds.
+
+1. Specify the Relationship ID to query (use the Service Details page to find the ID).
+    By default, this sample uses the first relationship ID it finds.
 2. Specify the OutFields to return, if desired. You can also return all fields. By default, this sample returns all fields.
 3. Consider changing the default icon to something specific to your organization.
 
+To try the sample with the ArcGIS Viewer for Silverlight (i.e. as a non-developer),
+refer to the Deployment Instructions included with the sample.
 
-To try the sample with the ArcGIS Viewer for Silverlight (i.e. as a non-developer), refer to the Deployment Instructions included with the sample.
-
-Note on Editing related features: No additional programming is required to edit related features. To edit related features, ensure you have feature service layers that allow editing and then enable the editing functionality in the Application Builder. Open the Editing panel, click Configure Editing, and check the box to "Edit all feature layers". Once you click on a feature and run the Query Related Records tool, the attributes display in the Attribute table and can be edited directly from there.
+Note on Editing related features: No additional programming is required to edit related features.
+To edit related features, ensure you have feature service layers that allow editing and then enable
+the editing functionality in the Application Builder.
+Open the Editing panel, click Configure Editing, and check the box to "Edit all feature layers".
+Once you click on a feature and run the Query Related Records tool, the attributes display in
+the Attribute table and can be edited directly from there.

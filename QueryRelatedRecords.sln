@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryRelatedRecords", "QueryRelatedRecords\QueryRelatedRecords\QueryRelatedRecords.csproj", "{7FFB279E-B604-4096-B706-9609841FA349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryRelatedRecords.AddIns", "QueryRelatedRecords\QueryRelatedRecords.AddIns\QueryRelatedRecords.AddIns.csproj", "{81FD03C2-36A1-45B7-AB89-2BFC0048C040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FFB279E-B604-4096-B706-9609841FA349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FFB279E-B604-4096-B706-9609841FA349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FFB279E-B604-4096-B706-9609841FA349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FFB279E-B604-4096-B706-9609841FA349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81FD03C2-36A1-45B7-AB89-2BFC0048C040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FD03C2-36A1-45B7-AB89-2BFC0048C040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81FD03C2-36A1-45B7-AB89-2BFC0048C040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81FD03C2-36A1-45B7-AB89-2BFC0048C040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

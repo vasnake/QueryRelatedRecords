@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net;
 using System.Windows;
 using System.Windows.Controls;
@@ -11,11 +11,13 @@ using System.Windows.Shapes;
 
 namespace QueryRelatedRecords.AddIns
 {
+
     /// <summary>
     /// Provides extension methods for use by the Search add-in
     /// </summary>
     internal static class ExtensionMethods
     {
+
         /// <summary>
         /// Retrieves a storyboard for the visual state of a given <see cref="FrameowrkElement"/>
         /// </summary>
